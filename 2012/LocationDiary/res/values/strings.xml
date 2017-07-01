@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocationDiary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="show_root">Show path on date</string>
+    <string name="pref">Preferences</string>
+    <string name="minDistance">minDistace</string>
+
+    <string-array name="timeNames">
+        <item>5 second</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>5 minute</item>
+    </string-array>
+    <string-array name="timeValues">
+        <item>5000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="CalculatorButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#ffcacaca</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="CalculatorTextDisplay" parent="@android:style/TextAppearance">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">right</item>
+    </style>
+    
+    <style name="HistoryTextDisplay" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

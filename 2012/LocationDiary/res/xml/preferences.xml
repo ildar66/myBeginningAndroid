@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Location Monitor Parameter" >
+        <EditTextPreference
+            android:defaultValue="100"
+            android:key="minDistance"
+            android:summary="Enter distance(in metre)"
+            android:title="Minimum Distance for monitor" />
+
+        <ListPreference
+            android:entries="@array/timeNames"
+            android:entryValues="@array/timeValues"
+            android:key="minTime"
+            android:summary="Enter Time period for Update Monitor"
+            android:title="Minimume Time for Monitor" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

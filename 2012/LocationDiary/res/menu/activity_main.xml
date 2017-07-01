@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/pref_ID"
+        android:alphabeticShortcut="p"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/pref"/>
+    <item
+        android:id="@+id/itemStartDiaryService"
+        android:title="Start Monitoring Location">
+    </item>
+    <item
+        android:id="@+id/itemStopDiaryService"
+        android:title="Stop Monitoring Location">
+    </item>
+
+</menu>

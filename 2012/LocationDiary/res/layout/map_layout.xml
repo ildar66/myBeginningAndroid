@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0SmCs9Rlt3Kr75YxeV7PMDGbG8t9n7wJ_ECIK5g"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <!-- keyMD5 9F:95:73:FD:02:E4:7D:F0:67:E0:70:D9:8D:52:AA:6B -->
+    <!-- Debage key 0SmCs9Rlt3Kr75YxeV7PMDGbG8t9n7wJ_ECIK5g -->
+
+</LinearLayout>
